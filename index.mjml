@@ -28,10 +28,10 @@
                 <mj-image src="https://erysanchez.com/demos/cisnepolis01/logo-cisnepolis.png" alt="cisnepolis logo" width="150px" />
                 <mj-text font-family="Verdana" font-size="36px" font-weight="bold" line-height="46px" color="#FFFFFF" align="center" padding="30px 20px">
                     No hay truco,<br>
-                    sólo trato
+                    s&oacute;lo trato
                 </mj-text>
                 <mj-text color="#FFFFFF" line-height="25px" align="center">
-                    <p id="discount">%%=v(@Firstname)=%%, este mes disfruta de un <span style="color:#FECA30; font-weight: bold;">15% de descuento en dulcería</span>, sólo debes actualizar tus datos.</p>
+                    <p id="discount">%%=v(@Firstname)=%%, este mes disfruta de un <span style="color:#FECA30; font-weight: bold;">15% de descuento en dulcer&iacute;a</span>, s&oacute;lo debes actualizar tus datos.</p>
                 </mj-text>
                 <mj-button background-color="#FECA30" color="#002069" width="321px">
                     Actualizar y obtener descuento
@@ -43,18 +43,21 @@
         </mj-section>
         <mj-section background-color="#ffffff" padding="0">
             <mj-column width="100%">
+                <mj-text color="#222222" align="center" font-size="24px" font-weight="bold" padding-top="40px">
+                    Pel&iacute;culas en cartelera
+                </mj-text>
                 <mj-table width="100%">
                     <tr>
                         <td align="center" width="33%" style="padding: 10px;" valign="top">
                             <img src="https://erysanchez.com/demos/cisnepolis01/Los-juegos-del-hambre.jpg" width="100%">
                             <p align="left"  id="movietitle">
-                                Los juegos del hambre: Balada de pájaros cantores y serpientes
+                                Los juegos del hambre: Balada de p&aacute;jaros cantores y serpientes
                             </p>
                         </td>
                         <td align="center" width="33%" style="padding: 10px;" valign="top" > 
                             <img src="https://erysanchez.com/demos/cisnepolis01/Trolls-03.jpg" width="100%">
                             <p align="left"  id="movietitle" valign="top">
-                                Trolls 3: Se armó la Banda
+                                Trolls 3: Se arm&oacute; la Banda
                             </p>
                         </td>
                         <td align="center" width="33%" style="padding: 10px;" valign="top" >
@@ -98,11 +101,11 @@
         <mj-section background-color="lightgrey">
         <mj-column width="520px">
             <mj-text color="#222222" font-weight="400" font-size="12px" line-height="22px" align="center">
-                Contáctenos sin costo desde México 800-000-0000   |  dudas@cisnepolis.com <br /><br />
-                Cisnépolis, Mz. 53 L 69 Secc. A, Zona Hotelera, 77500 Cancún, Q. Roo, México.<br /><br />
-                Usted está recibiendo este correo por haberse registrado para recibir noticias o promociones de Cisnépolis.<br /><br />
-                Modificar Perfil   -   Darse de Baja   -    Política de Privacidad<br /><br />
-                © Copyright 2023 Cisnépolis. Todos los Derechos Reservados. 
+                Cont&aacute;ctenos sin costo desde M&eacute;xico 800-000-0000   |  dudas@cisnepolis.com <br /><br />
+                Cisn&eacute;polis, Mz. 53 L 69 Secc. A, Zona Hotelera, 77500 Canc&uacute;n, Q. Roo, M&eacute;xico.<br /><br />
+                Usted est&aacute; recibiendo este correo por haberse registrado para recibir noticias o promociones de Cisn&eacute;polis.<br /><br />
+                Modificar Perfil   -   Darse de Baja   -    Pol&iacute;tica de Privacidad<br /><br />
+                © Copyright 2023 Cisn&eacute;polis. Todos los Derechos Reservados. 
                 <div style="display: none; visibility: hidden;">
                     <a href="%%profile_center_url%%" alias="Update Profile">Update Profile</a><table cellpadding="2" cellspacing="0" width="600" ID="Table5" Border=0><tr><td><font face="verdana" size="1" color="#444444">This email was sent by: <b>%%Member_Busname%%</b><br>%%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%<br><br></font></td></tr></table>
                 </div>
