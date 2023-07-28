@@ -1,0 +1,113 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+            #discount {
+                padding: 0px 80px;
+            }
+            @media (max-width:480px) {
+                #discount {
+                padding: 0px 30px;
+                }
+                #movietitle {
+                    display: none;
+                    visibility: hidden;
+                }
+            }
+        </mj-style>
+        <mj-title>
+            Cisnépolis Halloween
+        </mj-title>
+        <mj-attributes>
+            
+        </mj-attributes>
+    </mj-head>
+    <mj-body>
+        <!-- Hero Content-->
+        <mj-section background-color="#002069" padding="0">
+            <mj-column width="100%">
+                <mj-image src="https://erysanchez.com/demos/cisnepolis01/logo-cisnepolis.png" alt="cisnepolis logo" width="150px" />
+                <mj-text font-family="Verdana" font-size="36px" font-weight="bold" line-height="46px" color="#FFFFFF" align="center" padding="30px 20px">
+                    No hay truco,<br>
+                    sólo trato
+                </mj-text>
+                <mj-text color="#FFFFFF" line-height="25px" align="center">
+                    <p id="discount">%%=v(@Firstname)=%%, este mes disfruta de un <span style="color:#FECA30; font-weight: bold;">15% de descuento en dulcería</span>, sólo debes actualizar tus datos.</p>
+                </mj-text>
+                <mj-button background-color="#FECA30" color="#002069" width="321px">
+                    Actualizar y obtener descuento
+                </mj-button>
+                <mj-image src="https://erysanchez.com/demos/cisnepolis01/cisnepolis-banner.png" alt="boo" padding="0">
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="lightgrey" padding="5px">
+        </mj-section>
+        <mj-section background-color="#ffffff" padding="0">
+            <mj-column width="100%">
+                <mj-table width="100%">
+                    <tr>
+                        <td align="center" width="33%" style="padding: 10px;" valign="top">
+                            <img src="https://erysanchez.com/demos/cisnepolis01/Los-juegos-del-hambre.jpg" width="100%">
+                            <p align="left"  id="movietitle">
+                                Los juegos del hambre: Balada de pájaros cantores y serpientes
+                            </p>
+                        </td>
+                        <td align="center" width="33%" style="padding: 10px;" valign="top" > 
+                            <img src="https://erysanchez.com/demos/cisnepolis01/Trolls-03.jpg" width="100%">
+                            <p align="left"  id="movietitle" valign="top">
+                                Trolls 3: Se armó la Banda
+                            </p>
+                        </td>
+                        <td align="center" width="33%" style="padding: 10px;" valign="top" >
+                            <img src="https://erysanchez.com/demos/cisnepolis01/Pobres-Criaturas.jpg" width="100%">
+                            <p align="left" id="movietitle">
+                                Pobres Criaturas
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </mj-table>
+                    <mj-text align="center" font-size="16px" line-height="25px">
+                        <a href="https://www.cisnepolis.com" style="color: #002069;">Ver Cartelera Completa</a>
+                    </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="lightgrey" padding="15px">
+        </mj-section>
+        <mj-section background-color="#222222">
+            <mj-column width="33%">
+                <mj-image src="https://erysanchez.com/demos/cisnepolis01/logo-cisnepolis-footer.png" alt="" width="140px"/>
+            </mj-column>
+            <mj-column width="67%">
+                        <mj-social font-size="15px" icon-size="30px" mode="horizontal" align="right" padding="0">
+                        <mj-social-element name="facebook-noshare" href="#" background-color="transparent" src="https://erysanchez.com/demos/cisnepolis01/icon-facebook.png"padding="0px 20px 0px 10px">
+                        </mj-social-element>
+                        <mj-social-element name="instagram-noshare" href="#" background-color="transparent" src="https://erysanchez.com/demos/cisnepolis01/icon-instagram.png" padding="0px 20px 0px 10px">
+                        </mj-social-element>
+                        <mj-social-element  name="twitter-noshare" href="#" background-color="transparent" src="https://erysanchez.com/demos/cisnepolis01/icon-twitter.png" padding="0px 20px 0px 10px">>
+                        </mj-social-element>
+                        </mj-social>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="lightgrey">
+        <mj-column width="520px">
+            <mj-text color="#222222" font-weight="400" font-size="12px" line-height="22px" align="center">
+                Contáctenos sin costo desde México 800-000-0000   |  dudas@cisnepolis.com <br /><br />
+                Cisnépolis, Mz. 53 L 69 Secc. A, Zona Hotelera, 77500 Cancún, Q. Roo, México.<br /><br />
+                Usted está recibiendo este correo por haberse registrado para recibir noticias o promociones de Cisnépolis.<br /><br />
+                Modificar Perfil   -   Darse de Baja   -    Política de Privacidad<br /><br />
+                © Copyright 2023 Cisnépolis. Todos los Derechos Reservados. 
+                <div style="display: none; visibility: hidden;">
+                    <a href="%%profile_center_url%%" alias="Update Profile">Update Profile</a><table cellpadding="2" cellspacing="0" width="600" ID="Table5" Border=0><tr><td><font face="verdana" size="1" color="#444444">This email was sent by: <b>%%Member_Busname%%</b><br>%%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%<br><br></font></td></tr></table>
+                </div>
+            </mj-text>
+        </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

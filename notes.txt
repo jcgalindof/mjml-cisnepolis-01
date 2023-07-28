@@ -1,0 +1,11 @@
+Imágenes
+Logotipo Cisnépolis header: https://erysanchez.com/demos/cisnepolis01/logo-cisnepolis.png
+Banner halloween: https://erysanchez.com/demos/cisnepolis01/cisnepolis-banner.png
+Poster 01: https://erysanchez.com/demos/cisnepolis01/Los-juegos-del-hambre.jpg
+Poster 02: https://erysanchez.com/demos/cisnepolis01/Trolls-03.jpg
+Poster 03: https://erysanchez.com/demos/cisnepolis01/Pobres-Criaturas.jpg
+Logotipo Cisnépolis footer: https://erysanchez.com/demos/cisnepolis01/logo-cisnepolis-footer.png
+Colores
+Azul: #002069
+Amarillo: #FECA30
+Negro: #222222
