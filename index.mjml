@@ -84,18 +84,23 @@
         <mj-section background-color="lightgrey" padding="15px">
         </mj-section>
         <mj-section background-color="#222222">
-            <mj-column width="33%">
-                <mj-image src="https://erysanchez.com/demos/cisnepolis01/logo-cisnepolis-footer.png" alt="" width="140px"/>
-            </mj-column>
-            <mj-column width="67%">
-                        <mj-social font-size="15px" icon-size="30px" mode="horizontal" align="right" padding="0">
-                        <mj-social-element name="facebook-noshare" href="#" background-color="transparent" src="https://erysanchez.com/demos/cisnepolis01/icon-facebook.png"padding="0px 20px 0px 10px">
-                        </mj-social-element>
-                        <mj-social-element name="instagram-noshare" href="#" background-color="transparent" src="https://erysanchez.com/demos/cisnepolis01/icon-instagram.png" padding="0px 20px 0px 10px">
-                        </mj-social-element>
-                        <mj-social-element  name="twitter-noshare" href="#" background-color="transparent" src="https://erysanchez.com/demos/cisnepolis01/icon-twitter.png" padding="0px 20px 0px 10px">>
-                        </mj-social-element>
-                        </mj-social>
+            <mj-column width="100%">
+                <mj-table width="100%">
+                    <tr>
+                        <td width="50%">
+                            <img src="https://erysanchez.com/demos/cisnepolis01/logo-cisnepolis-footer.png" alt="" width="140px" />
+                        </td>
+                        <td>
+                        <img src="https://erysanchez.com/demos/cisnepolis01/icon-facebook.png" width="30px;"padding="0px 20px 0px 10px">
+                        </td>
+                        <td>
+                        <img src="https://erysanchez.com/demos/cisnepolis01/icon-instagram.png" padding="0px 20px 0px 10px" width="30px">
+                        </td>
+                        <td>
+                        <img src="https://erysanchez.com/demos/cisnepolis01/icon-twitter.png"width="30px">
+                        </td>
+                    </tr>
+                </mj-table>
             </mj-column>
         </mj-section>
         <mj-section background-color="lightgrey">
